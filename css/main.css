@@ -1,0 +1,64 @@
+html, body, main {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-size: 18px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+main {
+    white-space: pre;
+    color: #eee;
+
+    transition: color 10s;
+}
+
+main.uncorrupted {
+    color: #fff;
+}
+
+#about {
+    padding: 0 1em;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#dimensiontest {
+    visibility: hidden;
+    white-space: normal;
+}
+
+#query {
+    position: fixed;
+    top: 8rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 1em;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+#query:focus {
+    border: 0;
+    box-shadow: 0 0 2em white;
+    outline: none;
+}
+
+a, a:visited {
+    color: #a00;
+    text-decoration: none;
+}
+
+#screentoosmall {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #691c1c;
+    color: #eee;
+    font-family: serif;
+    padding: 1em;
+}

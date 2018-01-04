@@ -1,0 +1,25 @@
+{
+  "name": "exmateria",
+  "version": "1.0.0",
+  "description": "Ex Materia game",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juhana/exmateria.git"
+  },
+  "author": "Juhana Leinonen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juhana/exmateria/issues"
+  },
+  "homepage": "https://github.com/juhana/exmateria#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.2.16"
+  }
+}
